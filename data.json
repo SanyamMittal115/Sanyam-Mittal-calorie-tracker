@@ -1,0 +1,33 @@
+{
+    "chart_title": "Sample Chart Data",
+    "data_points": [
+        {
+            "Days": "How many calories did you eat?",
+            "Calories": 2300
+        },
+        {
+            "Days": "How many calories did you eat?",
+            "Calories": 2500
+        },
+        {
+            "Days": "How many calories did you eat?",
+            "Calories": 2315
+        },
+	{
+            "Days": "How many calories did you eat?",
+            "Calories": 2100
+        },
+	{
+            "Days": "How many calories did you eat?",
+            "Calories": 2450
+        },
+	{
+            "Days": "How many calories did you eat?",
+            "Calories": 2150
+        },
+	{
+            "Days": "How many calories did you eat?",
+            "Calories": 2000
+        }
+    ]
+}
