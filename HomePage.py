@@ -3,20 +3,13 @@
 
 # Import Streamlit
 import streamlit as st
-import pandas as pd
-import json
+
 # st.set_page_config() is used to configure the page's appearance in the browser tab.
 # It's good practice to set this as the first Streamlit command in your script.
 st.set_page_config(
     page_title="Homepage",  # The title that appears in the browser tab
     page_icon="🏠",         # An emoji that appears as the icon in the browser tab
 )
-@st.cache_data
-def load_data():
-    df = pd.read_csv("calories.csv")
-    with open("foods.json") as f:
-        food_map = json.load(f)
-    return df, food_map
 
 df, food_map = load_data()
 # WELCOME PAGE TITLE
