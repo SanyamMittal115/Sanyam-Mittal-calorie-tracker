@@ -1,6 +1,8 @@
 # This creates the main landing page for the Streamlit application.
 # Contains an introduction to the project and guide users to other pages.
-
+import time
+start = time.time()
+st.write(f"Page load time: {time.time() - start:.2f}s")
 # Import Streamlit
 import streamlit as st
 import pandas as pd
