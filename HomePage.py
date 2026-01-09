@@ -11,7 +11,6 @@ st.set_page_config(
     page_icon="🏠",         # An emoji that appears as the icon in the browser tab
 )
 
-df, food_map = load_data()
 # WELCOME PAGE TITLE
 st.title("Welcome to the Data Dashboard! 📊")
 
